@@ -1,0 +1,550 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@400;600&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(20, 20, 20);
+}
+
+:root {
+    --main-color: #3430ff;
+    --secondary-color: #55569E;
+    --font-color: #fff; 
+}
+
+/*- Main and Header Config-*/
+#main {
+    margin: 3em auto;
+    padding: 1rem;
+    border: 1px solid var(--main-color);
+    border-radius: 1em;
+    color: var(--font-color);
+}
+
+.main-resolution {
+    width: 90%;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#profile-image {
+    height: 30vh;
+    border-radius: 50%;
+    border: solid 1px var(--main-color);
+}
+
+#personal-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#personal-info h1 {
+    font-size: 1.6em;
+    font-family: Tektur;
+    font-weight: 400;
+    text-align: center;
+}
+
+#information {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+#information p {
+    font-size: 1em;
+    margin: .5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#information p::before {
+    content: '';
+    width: .9em;
+    height: .9em;
+    margin-right: .5em;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#information #job::before {
+    background-image: url('../img/icons/cargo-icon.svg');
+}
+
+#information #location::before {
+    background-image: url('../img/icons/location-icon.svg');
+}
+
+#information #phone-number::before {
+    background-image: url('../img/icons/phone-icon.svg');
+}
+
+#information #mail::before {
+    background-image: url('../img/icons/mail-icon.svg');
+}
+
+
+
+/*- General Acordeons Config-*/
+.acordeon {
+    margin: 1em;
+    border-radius: 1em;
+    padding: 1em;
+    border: 1px solid var(--main-color);
+}
+
+.title-conteiner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.acordeon h2 {
+    font-size: 1.2em;
+}
+
+.trigger {
+    content: '';
+    width: 1em;
+    height: .7em;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url("../img/icons/arrow.svg");
+    transition: transform 0.5s;
+}
+
+.trigger:hover {
+    cursor: pointer;
+}
+
+.trigger.active {
+    transform: rotate(180deg);
+}
+
+.acordeon.active {
+    background-color: var(--secondary-color);
+}
+
+.acordeon-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.acordeon-info h3 {
+    font-size: 1em;
+    margin: 1em 0;
+}
+
+.acordeon .acordeon-info > section:not(.show) {
+    display: none;
+}
+
+
+/*- Acordeon Skills config-*/
+#hard-skills {
+    max-width: 12em;
+    margin-right: 1em;
+}
+
+#hard-skills li {
+    padding: 0.5em 0;
+    list-style: none;
+}
+
+#hard-skills ul {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#hard-skills img {
+    width: 1.1em;
+    margin: 0.5em;
+}
+
+#soft-skills {
+    margin-left: 1em;
+}
+
+#soft-skills li{
+    padding: 0.5em 0;
+    font-size: 0.95em;
+    list-style: url('../img/icons/list-icon.svg');
+}
+
+
+
+/*- Acordeon Languages config-*/
+#languages ul {
+    display: flex;
+    padding: 1em;
+}
+
+#languages li{
+    margin: 0 1em;
+    list-style: url('../img/icons/list-icon.svg');
+}
+
+
+
+/*- Acordeons Portfolio Config -*/
+
+
+#portfolio ul {
+    display: flex;
+    flex-direction: column;
+    padding: 1em 2em;
+}
+
+#portfolio li {
+    margin-bottom: 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+#portfolio a {
+    color: var(--font-color);
+    text-decoration: none;
+    margin-bottom: 1em;
+}
+
+#portfolio a:hover {
+    text-decoration: underline;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    margin: 0.5em 1em;
+    font-weight: bold;
+}
+
+.title::before {
+    content: '';
+    width: 1.2em;
+    height: 1.2em;
+    margin-right: .5em;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('../img/icons/github-icon.svg');
+}
+
+.sub-title {
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+
+/*- Acordeons Job Experience Config -*/
+
+
+#job-xp ul {
+    display: flex;
+    flex-direction: column;
+    margin: 0 1em;
+}
+
+#job-xp li {
+    margin-bottom: 1em;
+}
+
+.date {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.date::before {
+    content: '';
+    width: 0.8em;
+    height: 0.8em;
+    margin-right: .5em;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('../img/icons/calendar-icon.svg');
+}
+
+.paragraph {
+    text-align: justify;
+}
+
+/* Acordeons Certifications Config */
+.certificates {
+    width: 10em;
+}
+
+#carousel {
+    transition: transform 0.3s linear;
+}
+
+#acordeon-info-certifications {
+    overflow: hidden;
+    width: 74%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+#slide {
+    display: flex;
+    justify-content: center;
+    margin: 2em auto;
+}
+
+#slide li {
+    margin: 0 0.5em;
+    box-shadow: 0 0 20px black;
+}
+
+.content-bnt {
+    width: 100%;
+    display: flex;
+    transform: translateY(-280%);
+}
+
+.content-bnt .div-content-btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.scroll-buttons-content {
+    content: url('../img/icons/arrow.svg');
+    width: 3em;
+}
+
+.scroll-buttons-content:hover {
+    cursor: pointer;
+}
+
+#prev-button {
+    rotate: 90deg;
+    background-color: #00000085;
+}
+
+#next-button {
+    rotate: 270deg;
+    background-color: #00000085;
+}
+
+/* Acordeons Courses Config */
+
+.title-course::before {
+    content: '-';
+    width: 1.2em;
+    height: 1.2em;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.courses-list li {
+    margin-bottom: 2.5em;
+}
+
+
+
+
+/*- Responsiveness -*/
+@media only screen and (min-width: 350px) {
+
+    #acordeon-info-certifications {
+        width: 79%;
+    }
+}
+
+@media only screen and (min-width: 387px) {
+
+    #hard-skills img {
+        width: 1.5em;
+    }
+
+    .certificates {
+        width: 14em;
+    }
+
+    #acordeon-info-certifications {
+        width: 89%;
+    }
+
+    .content-bnt {
+        transform: translateY(-350%); 
+    }
+}
+
+@media only screen and (min-width: 389px) {
+
+    #acordeon-info-certifications {
+        width: 96%;
+    }
+}
+
+@media only screen and (min-width: 413px) {
+
+    .certificates {
+        width: 15em;
+    }
+
+    #acordeon-info-certifications {
+        width: 95%;
+    }
+
+    .content-bnt {
+        transform: translateY(-350%); 
+    }
+}
+
+@media only screen and (min-width: 748px) {
+
+    header {
+        flex-direction: row;
+    }
+
+    #personal-info h1 {
+        text-align: left;
+    }
+
+    #hard-skills img {
+        width: 1.5em;
+    }
+
+    .certificates {
+        width: 19em;
+    }
+
+    #acordeon-info-certifications {
+        width: 50%;
+    }
+
+    .content-bnt {
+        transform: translateY(-425%); 
+    }
+}
+
+@media only screen and (min-width: 1023px) {
+
+    .main-resolution {
+        width: 70%;
+    }
+
+    .certificates {
+        width: 19em;
+    }
+
+    #acordeon-info-certifications {
+        width: 52%;
+    }
+
+    .content-bnt {
+        transform: translateY(-425%); 
+    }
+}
+
+@media only screen and (min-width: 1250px) {
+
+    .main-resolution {
+        width: 60%;
+    }
+
+    .certificates {
+        width: 19em;
+    }
+
+    #acordeon-info-certifications {
+        width: 48%;
+    }
+
+    .content-bnt {
+        transform: translateY(-425%); 
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+
+    .main-resolution {
+        width: 50%;
+    }
+
+    .certificates {
+        width: 19em;
+    }
+
+    #acordeon-info-certifications {
+        width: 55%;
+    }
+
+    .content-bnt {
+        transform: translateY(-425%); 
+    }
+}
+
+@media only screen and (min-width: 1800px) {
+
+    .main-resolution {
+        width: 40%;
+    }
+
+    .certificates {
+        width: 20em;
+    }
+
+    #acordeon-info-certifications {
+        width: 54%;
+    }
+
+    .content-bnt {
+        transform: translateY(-425%); 
+    }
+}
+
+@media only screen and (min-width: 1900px) {
+
+    .certificates {
+        width: 20em;
+    }
+
+    #acordeon-info-certifications {
+        width: 51%;
+    }
+
+    .content-bnt {
+        transform: translateY(-425%); 
+    }
+}
+
+@media only screen and (min-width: 2400px) {
+
+    .main-resolution {
+        width: 30%;
+    }
+
+    .certificates {
+        width: 20em;
+    }
+
+    #acordeon-info-certifications {
+        width: 51%;
+    }
+
+    .content-bnt {
+        transform: translateY(-350%); 
+    }
+}
