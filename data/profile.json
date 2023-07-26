@@ -10,35 +10,35 @@
         "hardSkills": [
             {
                 "name": "HTML 5",
-                "logo": ""
+                "logo": "https://raw.githubusercontent.com/Gabriel-Cabeceira/portfolio/master/data/images/icons/html5.png"
             },
             {
                 "name": "CSS 3",
-                "logo": ""
+                "logo": "https://raw.githubusercontent.com/Gabriel-Cabeceira/portfolio/master/data/images/icons/css3.png"
             },
             {
                 "name": "Javascript",
-                "logo": ""
+                "logo": "https://raw.githubusercontent.com/Gabriel-Cabeceira/portfolio/master/data/images/icons/javascript.png"
             },
             {
                 "name": "Node.js",
-                "logo": ""
+                "logo": "https://raw.githubusercontent.com/Gabriel-Cabeceira/portfolio/master/data/images/icons/nodejs.png"
             },
             {
                 "name": "Python",
-                "logo": ""
+                "logo": "https://raw.githubusercontent.com/Gabriel-Cabeceira/portfolio/master/data/images/icons/python.png"
             },
             {
                 "name": "Git",
-                "logo": ""
+                "logo": "https://raw.githubusercontent.com/Gabriel-Cabeceira/portfolio/master/data/images/icons/git.png"
             },
             {
                 "name": "Github",
-                "logo": ""
+                "logo": "https://raw.githubusercontent.com/Gabriel-Cabeceira/portfolio/master/data/images/icons/github.png"
             },
             {
                 "name": "Windows",
-                "logo": ""
+                "logo": "https://raw.githubusercontent.com/Gabriel-Cabeceira/portfolio/master/data/images/icons/windows.png"
             }
         ],
         "softSkills": [
