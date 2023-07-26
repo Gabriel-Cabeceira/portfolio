@@ -1,0 +1,130 @@
+
+{
+    "name": "Gabriel Cabeceira",
+    "photo": "https://avatars.githubusercontent.com/u/108899485?s=400&u=19f87fe0fd5755de98616b4268179f9e5eecd992&v=4",
+    "job": "Analista de Sistemas Jr. - ASC Brazil",
+    "location": "Uberlândia - MG",
+    "phone": "(34) 99220-1095",
+    "email": "gabrielcabeceira@gmail.com",
+    "skills": {
+        "hardSkills": [
+            {
+                "name": "HTML 5",
+                "logo": ""
+            },
+            {
+                "name": "CSS 3",
+                "logo": ""
+            },
+            {
+                "name": "Javascript",
+                "logo": ""
+            },
+            {
+                "name": "Node.js",
+                "logo": ""
+            },
+            {
+                "name": "Python",
+                "logo": ""
+            },
+            {
+                "name": "Git",
+                "logo": ""
+            },
+            {
+                "name": "Github",
+                "logo": ""
+            },
+            {
+                "name": "Windows",
+                "logo": ""
+            }
+        ],
+        "softSkills": [
+            "Empatia",
+            "Organização",
+            "Trabalho em equipe",
+            "Flexibilidade",
+            "Organização",
+            "Comprometimento com resultados",
+            "Gosto por aprender",
+            "Comunicação"
+        ]
+    },
+    "languages": [
+        "Português BR",
+        "Inglês (intermediário)"
+    ],
+    "portfolio": [
+        {
+            "name": "Portfólio v1.0",
+            "url-pages": "https://gabriel-cabeceira.github.io/meu-portfolio/",
+            "url-rep": "https://github.com/Gabriel-Cabeceira/meu-portfolio",
+            "github": true
+        },
+        {
+            "name": "Script Tool",
+            "url-pages": "https://gabriel-cabeceira.github.io/scripts/",
+            "url-rep": "https://github.com/Gabriel-Cabeceira/scripts",
+            "github": true
+        },
+        {
+            "name": "Pokedex",
+            "url-pages": "https://gabriel-cabeceira.github.io/pokedex/",
+            "url-rep": "https://github.com/Gabriel-Cabeceira/pokedex",
+            "github": true
+        },
+        {
+            "name": "Trilha CSS DIO",
+            "url-pages": "https://gabriel-cabeceira.github.io/trilha-css-desafio-01-landing-page/",
+            "url-rep": "https://github.com/Gabriel-Cabeceira/trilha-css-desafio-01-landing-page",
+            "github": true
+        }
+
+    ],
+    "certifications": [
+        {
+            "name": "Cyber Security",
+            "certificate": ""
+        },
+        {
+            "name": "NTT Data",
+            "certificate": ""
+        }
+    ],
+    "qualifications": [
+        {
+            "name": "Análise e Desenvolvimento de sistemas",
+            "period": "3° Período",
+            "description": "Universidade Anhanguera - Uberlândia MG"
+        },
+        {
+            "name": "Técnico em Edificações",
+            "period": "Completo",
+            "description": "SENAI - Uberlândia MG"
+        }
+    ],
+    "professionalExperience": [
+        {
+            "name": "Analista de Suporte Jr. / ASC Brazil",
+            "period": "Jun 2023 - Atualmente",
+            "description": "Atualmente, atuo nas aplicações, avaliando logs em servidores e consultas em bancos de dados, analisando casos complexos e identificando detalhes para auxiliar na solução dos incidentes, análise e desenvolvimento de flows para atendimentos automáticos. Também estou responsável pela resolução de tratativas de Ordens de Serviço através do ERP. No Service Desk N1, realizo atendimentos por meio de reuniões, ligações e conferências, abordando de forma adequada as tratativas necessárias."
+        },
+        {
+            "name": "Control Desk / Algar Tech",
+            "period": "Out 2022 - Maio 2023",
+            "description": "Experiência sólida em acompanhamento de indicadores e produtividade, com geração de relatórios para supervisão, coordenação, gerência e clientes. Contribuí para o controle e aumento da produtividade e faturamento da operação, além de minimizar perdas em momentos críticos. Busquei oportunidades para aplicar minha expertise em análise de indicadores e coordenação de operações, visando alcançar metas e agregar valor em novos projetos."
+        },
+        {
+            "name": "Suporte Técnico e Comercial / TJ Automação",
+            "period": "Nov 2021 - Set 2022",
+            "description": "Experiência abrangente em atendimento ao cliente e vendas, tanto presencialmente como por telefone e canais digitais. Dedicação em esclarecer dúvidas dos clientes e oferecer treinamento a novos colaboradores. Habilidade em elaborar planilhas, orçamentos e fornecer suporte na infraestrutura de TI, incluindo manutenção e configuração de computadores."
+        },
+        {
+            "name": "Atendente de Relacionamento / Callink",
+            "period": "Set 2020 - Nov 2021",
+            "description": "Exerci atendimento ao cliente por canais de voz e canais digitais, atendendo às demandas do projeto da Claro (Claro Flex, Claro móvel, NET residencial). Solucionei problemas relacionados à parte financeira, fraudes e problemas técnicos. Por meio do trabalho executado, auxiliei os clientes nos mais diversos casos para que pudessem ter o serviço devidamente como contratado. Além disso, contribuí para alcançar melhores resultados nos indicadores da equipe."
+        }
+    ]
+  }
