@@ -86,11 +86,11 @@
     "certifications": [
         {
             "name": "Cyber Security",
-            "certificate": ""
+            "certificate": "https://raw.githubusercontent.com/Gabriel-Cabeceira/portfolio/master/data/images/certificates/cyber-security-certification.jpeg"
         },
         {
             "name": "NTT Data",
-            "certificate": ""
+            "certificate": "https://raw.githubusercontent.com/Gabriel-Cabeceira/portfolio/master/data/images/certificates/nttData-certificate.JPG"
         }
     ],
     "qualifications": [
