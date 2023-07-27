@@ -56,6 +56,12 @@ header {
     text-align: center;
 }
 
+#name {
+    font-family: Tektur;
+    font-weight: 400;
+    text-align: center;
+}
+
 #information {
     display: flex;
     flex-direction: column;
