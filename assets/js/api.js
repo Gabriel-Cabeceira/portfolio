@@ -118,54 +118,177 @@ function getExperience(apiExperience) {
 }
 
 
+
+
 // Get data from API
+
+// Puts name
 portfolioApi.fetchData = () => {
     fetch(url)
         .then((response) => response.json())
         .then((data) => {
             portfolioApi.data = data;
-            // Puts name
+            
             getName(portfolioApi.data.name);
+        })
+        .catch((error) => console.error('Error: ', error));
+}
+portfolioApi.fetchData();
 
-            // Puts profile image
+
+// Puts profile image
+portfolioApi.fetchData = () => {
+    fetch(url)
+        .then((response) => response.json())
+        .then((data) => {
+            portfolioApi.data = data;
+            
             getProfilePic(portfolioApi.data.photo)
+        })
+        .catch((error) => console.error('Error: ', error));
+}
+portfolioApi.fetchData();
 
-            // Puts information
+
+// Puts information
+portfolioApi.fetchData = () => {
+    fetch(url)
+        .then((response) => response.json())
+        .then((data) => {
+            portfolioApi.data = data;
+
             const apiJob = portfolioApi.data.job;
             const apiLocation = portfolioApi.data.location;
             const apiPhone = portfolioApi.data.phone;
             const apiEmail = portfolioApi.data.email;
 
             getInformation(apiJob, apiLocation, apiPhone, apiEmail);
+        })
+        .catch((error) => console.error('Error: ', error));
+}
+portfolioApi.fetchData();
 
-            // Puts Hard Skills
+
+// Puts Hard Skills
+portfolioApi.fetchData = () => {
+    fetch(url)
+        .then((response) => response.json())
+        .then((data) => {
+            portfolioApi.data = data;
+            
             const apiHardSkills = portfolioApi.data.skills.hardSkills;
             getHardSkills(apiHardSkills);
+        })
+        .catch((error) => console.error('Error: ', error));
+}
+portfolioApi.fetchData();
 
-            // Puts Soft Skills
+
+// Puts Soft Skills
+portfolioApi.fetchData = () => {
+    fetch(url)
+        .then((response) => response.json())
+        .then((data) => {
+            portfolioApi.data = data;
+            
             const apiSoftSkills = portfolioApi.data.skills.softSkills;
             getSoftSkills(apiSoftSkills);
+        })
+        .catch((error) => console.error('Error: ', error));
+}
+portfolioApi.fetchData();
 
-            // Puts Portfolio
+
+// Puts Portfolio
+portfolioApi.fetchData = () => {
+    fetch(url)
+        .then((response) => response.json())
+        .then((data) => {
+            portfolioApi.data = data;
+            
             const apiPortfolio = portfolioApi.data.portfolio;
             getPortfolio(apiPortfolio);
+        })
+        .catch((error) => console.error('Error: ', error));
+}
+portfolioApi.fetchData();
 
-            // Puts Certifications
+
+// Puts Certifications
+portfolioApi.fetchData = () => {
+    fetch(url)
+        .then((response) => response.json())
+        .then((data) => {
+            portfolioApi.data = data;
+            
             const apiCertifications = portfolioApi.data.certifications;
             getCertifications(apiCertifications);
+        })
+        .catch((error) => console.error('Error: ', error));
+}
+portfolioApi.fetchData();
 
-            // Puts qualifications
+
+// Puts qualifications
+portfolioApi.fetchData = () => {
+    fetch(url)
+        .then((response) => response.json())
+        .then((data) => {
+            portfolioApi.data = data;
+            
             const apiCourses = portfolioApi.data.qualifications;
             getCourses(apiCourses);
+        })
+        .catch((error) => console.error('Error: ', error));
+}
+portfolioApi.fetchData();
 
-            // Puts Languages
+
+// Puts Languages
+portfolioApi.fetchData = () => {
+    fetch(url)
+        .then((response) => response.json())
+        .then((data) => {
+            portfolioApi.data = data;
+            
             const apiLanguages = portfolioApi.data.languages;
             getlanguages(apiLanguages);
+        })
+        .catch((error) => console.error('Error: ', error));
+}
+portfolioApi.fetchData();
 
-            // Puts Professional Experience
+
+// Puts Professional Experience
+portfolioApi.fetchData = () => {
+    fetch(url)
+        .then((response) => response.json())
+        .then((data) => {
+            portfolioApi.data = data;
+            
             const apiExperience = portfolioApi.data.professionalExperience;
             getExperience(apiExperience);
         })
         .catch((error) => console.error('Error: ', error));
 }
 portfolioApi.fetchData();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

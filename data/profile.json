@@ -9,24 +9,24 @@
     "skills": {
       "hardSkills": [
         {
-          "name": "HTML 5",
-          "logo": "https://raw.githubusercontent.com/Gabriel-Cabeceira/portfolio/master/data/images/icons/html5.png"
-        },
-        {
-          "name": "CSS 3",
-          "logo": "https://raw.githubusercontent.com/Gabriel-Cabeceira/portfolio/master/data/images/icons/css3.png"
-        },
-        {
           "name": "Javascript",
           "logo": "https://raw.githubusercontent.com/Gabriel-Cabeceira/portfolio/master/data/images/icons/javascript.png"
+        },
+        {
+          "name": "Python",
+          "logo": "https://raw.githubusercontent.com/Gabriel-Cabeceira/portfolio/master/data/images/icons/python.png"
         },
         {
           "name": "Node.js",
           "logo": "https://raw.githubusercontent.com/Gabriel-Cabeceira/portfolio/master/data/images/icons/nodejs.png"
         },
         {
-          "name": "Python",
-          "logo": "https://raw.githubusercontent.com/Gabriel-Cabeceira/portfolio/master/data/images/icons/python.png"
+          "name": "HTML 5",
+          "logo": "https://raw.githubusercontent.com/Gabriel-Cabeceira/portfolio/master/data/images/icons/html5.png"
+        },
+        {
+          "name": "CSS 3",
+          "logo": "https://raw.githubusercontent.com/Gabriel-Cabeceira/portfolio/master/data/images/icons/css3.png"
         },
         {
           "name": "Git",
@@ -82,6 +82,10 @@
       }
     ],
     "certifications": [
+      {
+        "name": "Javascript",
+        "certificate": "https://raw.githubusercontent.com/Gabriel-Cabeceira/portfolio/master/data/images/certificates/jsDeveloper.JPG"
+      },
       {
         "name": "Cyber Security",
         "certificate": "https://raw.githubusercontent.com/Gabriel-Cabeceira/portfolio/master/data/images/certificates/cyber-security-certification.jpeg"
